@@ -46,15 +46,15 @@ t2 = DockerOperator(
         "--profiles-dir",
         "/root",
         "--project-dir",
-        "/dbt"
+        "/opt/dbt"
     ],
     auto_remove=True,
     docker_url="unix://var/run/docker.sock",
     network_mode="bridge",
     mounts=[
-     Mount(source='/Users/Colin/elt/custom_postgres',
+     Mount(source='C:/Users/Colin/elt/custom_postgres',
            target='/opt/dbt', type='bind'),   
-     Mount(source='/Users/Colin/.dbt',
+     Mount(source='C:/Users/Colin/.dbt',
            target='/root', type='bind'),
     ],
     dag=dag
