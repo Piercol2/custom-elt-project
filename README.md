@@ -11,21 +11,6 @@ This project demonstrates a containerized Extract, Load, Transform (ELT) pipelin
 - **Python** – ELT script for extraction, transformation, and loading  
 - **Apache Airflow** – Workflow orchestration and scheduling  
 
-## Repository Structure
-
-.
-├── docker-compose.yaml # Orchestrates all Docker containers
-├── elt_script/
-│ ├── Dockerfile # Builds the ELT container
-│ └── elt_script.py # Performs the ELT process
-├── source_db_init/
-│ └── init.sql # Initializes the source database with sample data
-├── dags/ # Airflow DAGs
-└── README.md
-
-markdown
-Copy code
-
 ## How It Works
 
 1. **Docker Compose** spins up the following containers:
