@@ -1,5 +1,3 @@
-# custom-elt-project
-
 # Custom ELT Pipeline with Airflow
 
 This project demonstrates a containerized Extract, Load, Transform (ELT) pipeline using **Docker**, **PostgreSQL**, **Python**, and **Apache Airflow**. It automates the process of moving and transforming data between databases while providing workflow orchestration.
