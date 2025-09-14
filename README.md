@@ -48,23 +48,6 @@ Copy code
    - DAGs define task dependencies and schedule automated runs of the ELT process  
    - Logs and task monitoring are available via the Airflow Web UI
 
-## Getting Started
-
-1. **Prerequisites**:
-   - [Docker](https://www.docker.com/)  
-   - [Docker Compose](https://docs.docker.com/compose/)  
-
-2. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-Start the services:
-
-bash
-Copy code
-docker-compose up -d
-Access Services:
-
 Source PostgreSQL: localhost:5433
 
 Destination PostgreSQL: localhost:5434
